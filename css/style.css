@@ -1,0 +1,66 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+}
+body{
+	background-color: rgba(100,100,100);
+}
+.form{
+	background-color: white;
+	width: 250px;
+	/*height: 300px;*/
+	margin: auto;
+	margin-top: 100px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 5px 5px rgba(75,75,75); 
+	padding: 10px 10px;
+}
+.form-items{
+	/*font-family: Oxygen;*/
+	/*background-color: blue;*/
+	position: relative;
+	margin: 10px 0px;
+	padding: 5px;
+}
+
+.text-box-div{
+	display: flex;
+	align-items: center;
+}
+input{
+	/*width:100%;*/
+	height: 30px;
+	margin-top: 5px; 
+	margin-right: 5px;
+	flex-grow: 1;
+}
+
+.fa-check-circle{
+	color: gray;
+}
+.validator, .rules{
+	background-color: white;
+	width: 250px;
+	color: red;
+	/*height: 300px;*/
+	margin: auto;
+	margin-top: 20px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 5px 5px rgba(75,75,75); 
+	padding: 10px 10px;
+}
+.rules{
+	color: black;
+}
+.rules span{
+	/*text-decoration: underline;*/
+	font-weight: bold;
+}
+ol{
+	margin-top: 10px;
+}
+li{
+	list-style-position: inside;
+}
+
